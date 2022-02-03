@@ -1,3 +1,39 @@
 body{
     background-color: black;
+    align-content: center;
+    font-family: sans-serif;
+    padding: 0% 5% 0% 5%;
+}
+h1, p{
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.nav{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-color: white;
+}
+
+.nav a{
+    float: left;
+    background-color: #f4a43a;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5% 5% 0.5% 5%;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    background-color: #f9ac57;
 }
