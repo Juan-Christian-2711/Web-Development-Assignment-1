@@ -3,12 +3,19 @@ body{
     align-content: center;
     font-family: 'Oswald', sans-serif;
     padding: 0% 5% 0% 5%;
-}
-h1, p{
     color: white;
 }
+a{
+    text-decoration: none;
+    color: white;  
+}
 h1{
-    font-size: 50px;
+    font-size: 400%;
+    text-align: center;
+}
+h3{
+    font-size: 200%;
+    text-align: center;
 }
 img{
     display: block;
@@ -36,4 +43,23 @@ img{
 
 .nav a:hover{
     background-color: #f9ac57;
+}
+.article{
+    padding:2%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.article p{
+    font-size: 2vw;
+    padding-left: 3vw;
+}
+
+.article h3{
+    font-size: 2vw;
+}
+
+.YellowBackground{
+    background-color: #f4a43a;
 }
