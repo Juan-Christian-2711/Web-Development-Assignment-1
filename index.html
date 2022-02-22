@@ -10,10 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/star_trek_symbol.png" />
+    <script src="JavaScript/Slider.js"></script>
     <title>Home</title>
 </head>
 
-<body>
+<body onload="currentSlide(1)">
     <div class="body">
         <div class="title">
             <a href="index.html"><img src="images/Star-Trek-words.png"></a>
@@ -26,6 +27,47 @@
             <a href="culture.html">Culture</a>
         </div>
         <h1>Home</h1>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <a href="history.html"><img src="images/Gene_slider.jpg" style="width:100%"></a>
+                <div class="text">History</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <a href="about.html"><img src="images/PostersSlider.jpg" style="width:100%"></a>
+                <div class="text">About</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <a href="chronology.html"><img src="images/Star_Trek_TOS_cast.jpg" style="width:100%"></a>
+                <div class="text">Chronology</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <a href="culture.html"><img src="images/uhuraSlider.jpg" style="width:100%"></a>
+                <div class="text">Culture</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
         <div class="YellowBackground">
             <div class="article" id="reverse">
                 <p>Star Trek is a science fiction media franchise that has been on television since 1966 and is still
