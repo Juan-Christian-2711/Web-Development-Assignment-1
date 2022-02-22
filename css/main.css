@@ -83,7 +83,8 @@ img{
 .container p{
     color: black;
 }
-/* Set a background color */
+
+/* you need to source this code */
 body {
   font-family: Helvetica, sans-serif;
 }
@@ -217,4 +218,34 @@ body {
   padding: 0% 0% 2% 0%;
   margin: 0pt;
   color: white;
+}
+
+@media screen and (max-width: 480px) {
+  h1{
+    font-size: 150%;
+  }
+  h3{
+    font-size: 100%;
+  }
+  a{
+    font-size: 100%;
+  }
+  .article p{
+    font-size: 100%;
+    padding-left: 3vw;
+  }
+  .article{
+    padding:2%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .YellowBackground{
+    background-color: #f4a43a;
+    display:flex;
+  }
+  #reverse {
+    flex-direction: column-reverse;
+  }
 }
