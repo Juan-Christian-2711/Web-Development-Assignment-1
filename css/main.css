@@ -344,3 +344,7 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.Slide{
+  width: 100%;
+}
